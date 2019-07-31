@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Refresh" contenst="0.5" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" >
+	<title>Employee</title>
+</head>
+<body>
+	<div class="main_body">
+		<div class="main_button">
+			<a href="index.html">
+				<div>Department</div>
+			</a>
+			<a href="emp.html">
+				<div>Employee</div>
+			</a>
+		</div>
+	
+		<div class="data_table">
+			<div class="row" id="fields">
+				<div class="cell">full name</div>
+				<div class="cell">department</div>
+				<div class="cell">date of brith</div>
+				<div class="cell">salary</div>
+			</div>
+			<!-- ghost row -->
+			<div class="row">
+				<div class="cell"></div>
+			</div>
+
+			<div class="row data">
+				<div class="cell">
+					<span>Me Me</span>
+				</div>
+				<div class="cell">
+					<span>Cook</span>
+				</div>	
+				<div class="cell">
+					<span>28.05.2000</span>
+				</div>	
+				<div class="cell">
+					<span>10 000</span>
+					<div id="button_block">
+						<img src="icon_edit.png" class='edit_button'>
+						<img src="icon_delete.png" class='remove_button'>
+					</div>
+				</div>	
+			</div>
+			
+
+		</div>
+
+		<div id="input_block">
+			<div class="input_line">
+				<div class="input_name">
+					full name
+				</div>
+				<div class="input_field">
+					<input type="text" name="Enter name" id='fullname'>
+				</div>
+			</div>
+			<div class="input_line">
+				<div class="input_name">
+					department
+				</div>
+				<div class="input_field">
+					<select id='department'>
+						<option selected disabled></option>
+						<option>Cooooooooooooooook</option>
+						<option>Cooooooooooooooook</option>
+						<option>C</option>
+					</select>
+				</div>
+			</div>
+			<div class="input_line">
+				<div class="input_name">
+					date of brith
+				</div>
+				<div class="input_field">
+					<input type="text" name="Enter name" id='brith'>
+				</div>
+			</div>
+			<div class="input_line">
+				<div class="input_name">
+					salary
+				</div>
+				<div class="input_field">
+					<input type="text" name="Enter name" id='salary'>
+				</div>
+			</div>
+		</div>
+
+		<div class="green_button" id="add_button">+</div>
+		<div class="green_button" id="ok_button">✔</div>
+	</div>
+
+
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
